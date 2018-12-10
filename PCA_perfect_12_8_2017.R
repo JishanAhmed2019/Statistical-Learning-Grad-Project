@@ -1,11 +1,6 @@
 # Unsupervised learning methods
 # PCA approach
 rm(list=ls())
-# Case Study III: genomic data
-
-# NCI60 cancer cell line microarray data, 
-# 6,830 gene expression measurements on 64 cancer cell lines
-#head(NCI60)
 gene <- read.csv("C:/Users/User 1/Desktop/gene.csv")
 pheno <- read.csv("C:/Users/User 1/Desktop/pheno.csv")
 head(gene)
